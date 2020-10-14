@@ -7,7 +7,7 @@
 		clave2 = document.f1.clave2.value
 		clave3 = document.f1.clave2.value
 
-		if (clave1 == "Erwin" && clave2 == "Gramajo" && clave3 == "Gramajo" ) {
+		if (clave1 == "Erwin" && clave2 == "Gramajo") {
 			alert("Los Datos Coinciden...\n Bienvenido");
 			var href = "home.html";
 			window.location = href;
@@ -26,8 +26,7 @@
 	<br>
 	<form action = "" name = "f1">
 		<p>Usuario: <input type="text" name="clave1" size="20"><br>
-		<p>Contraseña: <input type="password" name="clave3" size="20"><br>
-		<p>Reingresa la Contraseña: <input type="password" name="clave2" size="20"><br>
+		<p>Contraseña: <input type="password" name="clave2" size="20"><br>
 		<p><input type="button" value="Ingresar" name="Comprobar si son Iguales" onclick="comprobarClave()" style="color:red; background-color:yellow;">
 		<p><input type=reset value="Borrar" name="Borrar Campos" style="color:black; background-color:silver;">
 	</form>
